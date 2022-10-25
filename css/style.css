@@ -11,9 +11,28 @@ button {
     font-family: monospace;
 }
 
-.text {
+a {
+    text-decoration: none;
+}
+
+a, .header-bottom-text {
+    color: #E5E7EB;
+}
+.text, .logo, .header-top-text {
     color: #f9faf9;
 }
+
+.logo-img {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
 .information {
     display: flex;
     justify-content: center;
@@ -21,6 +40,35 @@ button {
     font-weight: bolder;
     color: #f9faf9
 }
+
+.header-top-text {
+    font-size: 48px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    margin: -0.5rem;
+    align-items: center;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75rem;
+    padding-top: 1rem;
+}
+
+.bottom-header {
+    display: flex;
+    flex-direction: row;
+    width: 75rem;
+    justify-content: flex-start;
+}
+
 .footer {
     display: flex;
     flex-grow: 1;
