@@ -109,5 +109,8 @@ button {
 
 .call-text {
     color: #f9faf9 ;
-    
+}
+
+.call-text-header {
+    margin-bottom: -0.8rem;
 }
