@@ -23,6 +23,8 @@ button {
     align-items: center;
     background-color: #1F2937;
     color: #f9faf9;
+    padding: 1.25rem;
+    margin: -0.5rem;
 }
 
 .images {
@@ -114,3 +116,4 @@ button {
 .call-text-header {
     margin-bottom: -0.8rem;
 }
+
