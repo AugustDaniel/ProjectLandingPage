@@ -1,48 +1,113 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
-header {
-    background-color: #1f2937;
-    color: white;
-    margin: -0.5rem;
-    padding: 1rem;
-    
+button {
+    font-family: monospace;
 }
 
-ul {
-    display: flex;
-    gap: 1rem;
-    text-decoration: none;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color:white;
-}
-
-.website-description {
-    font-size: 48px;
-    font-weight: bolder;
-    
-}
-
-.container2 {
+.information {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.footer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf9;
 }
 
-.container1 {
+.images {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0;
+    text-align: center;
+    gap: 15px;
+}
+
+.image-information {
+    border: solid #1F2937;
+    border-radius: 20%;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     
 }
 
-.image-top {
-    border: solid black;
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50rem; 
+}
+
+.quote-thor {
+    display: flex;
+    flex: auto;
+    margin-left: 31rem;
+    margin-top: -1.8rem;
+}
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 10rem;
+    
+}
+
+.call-prompt {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    align-items: center;
+    gap: 5rem;
+}
+
+.button-bottom {
+    background-color: #3882F6;
+    border: solid #e5e7eb;
+    border-radius: 0.5rem;
+    color: #e5e7eb;
+    padding: 0.2rem 1rem;
+    border-width: 0.15rem;
+    
+}
+
+.call-text {
+    color: #f9faf9 ;
+    
 }

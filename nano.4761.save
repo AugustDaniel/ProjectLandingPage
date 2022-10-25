@@ -1,0 +1,13 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
