@@ -41,8 +41,19 @@ a, .header-bottom-text {
     color: #f9faf9
 }
 
+.header-bottom-image {
+    width: 10rem;
+    border: solid #1F2937;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-top-text {
     font-size: 48px;
+    margin-bottom: -0.5rem;
 }
 
 .header {
@@ -52,6 +63,8 @@ a, .header-bottom-text {
     margin: -0.5rem;
     align-items: center;
 }
+
+
 
 .top-header {
     display: flex;
@@ -67,6 +80,8 @@ a, .header-bottom-text {
     flex-direction: row;
     width: 75rem;
     justify-content: flex-start;
+    padding-bottom: 3rem;
+    gap: 2rem;
 }
 
 .footer {
